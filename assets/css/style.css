@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  
+  font-size: 32px;
+  color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1219px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header__inner {
+  width: 100%;
+  background-color: #007765;
+
+  display: flex;
+  justify-content: space-between;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .4);
+}
+
+.header__img {
+  margin: 20px 0 11px 55px;
+}
+
+/* Nav */
+.nav {
+  font-style: normal;
+  font-size: 24px;
+  margin: 27px 55px;
+  color: #fff;
+}
+
+.nav__link {
+  vertical-align: top;
+  display: inline-block;
+  margin: 0 8px;
+
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+
+  transition: color .2s linear;
+}
+
+.nav__link:hover {
+  color: #20b2aa;
+}
+
+/* Intro */
+.intro {
+  width: 100%;
+}
+
+.intro__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.--intro__img1{
+  margin-top: 84px;
+  height: 403px;
+  background: url("../images/intro.png") center no-repeat;
+  background-size: cover;
+}
+
+.intro__title {
+  color: #fff;
+  text-size: 72px;
+  font-weight: 500;
+}
+
+.--intro__img2 {
+  height: 483px;
+  background: url("../images/intro2.png") center no-repeat;
+  background-size: cover;
+}
+
+.intro__text {
+  max-width: 893px;
+  margin: 0 auto;
+
+  text-align: center;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  color: #fff;
+}
+
+/* Section */
+.section__title {
+  text-align: center;
+  color: #007765;
+  padding-top: 48px;
+  margin-bottom: 16px;
+}
+
+.section__inner{
+  background-color: #eee;
+}
+
+.section__text {
+  font-size: 32px;
+  line-height: 37px;
+
+  margin: 0 55px 0 55px;
+  padding-bottom: 92px;
+}
+
+.section__logo{
+  float: left;
+  padding-right: 48px;
+}
+
+/* teams */
+.teams {
+  max-width: 928px;
+  margin: 0 auto;
+  padding-bottom: 96px;
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.teams__item {
+  width: 33.33%;
+  text-align: center;
+}
+
+.teams__photo {
+  margin-top: 56px;
+}
+
+.teams__name {
+  font-weight: bold;
+  font-size: 24px;
+  color: #007765;
+}
+
+.teams__prof {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 26px;
+}
+
+/* footer */
+.footer__inner {
+  background-color: #333;
+}
+
+.footer__text {
+  max-width: 540px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+
+  padding-top: 48px;
+  padding-bottom: 64px;
+
+  margin: 0 auto;
+}
